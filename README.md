@@ -38,6 +38,10 @@ centralizam estes dados. Ainda, bases de dados _offline_ podem ser adquiridas de
 empresas especializadas, porém nem sempre projetos de código-fonte aberto
 possuem capital para isto.
 
+Tendo isto em mente, o atual projeto busca centralizar uma base de dados,
+independente de empresas, no formato de contribuição coletiva, onde os próprios
+usuários podem manter as informações atualizadas.
+
 ## Licença
 
 Esta base de dados é _opensource_ e está disponível sob a licença MIT, descrita
