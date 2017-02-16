@@ -32,6 +32,12 @@ está armazenado no arquivo `data/01001000.json` e possui o seguinte conteúdo.
 A criação deste projeto surgiu com a necessidade de criar uma base de dados
 atualizada para CEPs, independente de Correios ou qualquer tipo de Web Services.
 
+Muitos projetos necessitam de informações sobre endereços a partir dos CEPs,
+todavia, nem todos possuem a capacidade de conexão com servidores que
+centralizam estes dados. Ainda, bases de dados _offline_ podem ser adquiridas de
+empresas especializadas, porém nem sempre projetos de código-fonte aberto
+possuem capital para isto.
+
 ## Licença
 
 Esta base de dados é _opensource_ e está disponível sob a licença MIT, descrita
