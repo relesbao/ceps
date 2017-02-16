@@ -27,6 +27,14 @@ está armazenado no arquivo `data/01001000.json` e possui o seguinte conteúdo.
 }
 ```
 
+## Contribuindo
+
+Você pode contribuir com este projeto, adicionando ou atualizando informações
+através de _Patch Requests_ (PRs). Caso esteja interessado, por favor, acesse o
+arquivo
+[`CONTRIBUTING.md`](https://github.com/carteiro/ceps/blob/master/CONTRIBUTING.md)
+para mais detalhes sobre o assunto.
+
 ## Finalidade
 
 A criação deste projeto surgiu com a necessidade de criar uma base de dados
