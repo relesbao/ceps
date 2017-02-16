@@ -35,7 +35,7 @@ requisições HTTP pelo GitHub Pages. Assim, para acessar as informações do CE
 o seguinte comando via _terminal_.
 
 ```bash
-curl https://carteiro.github.io/ceps/data/90220021.json
+curl https://carteiro.github.io/ceps/data/01001000.json
 ```
 
 O funcionamento das requisições trabalha como um _pseudo_ Web Service, onde os
