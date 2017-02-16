@@ -5,7 +5,7 @@ _croudsourcing database_) para códigos de endereçamento postal (CEP) do Brasil
 
 Através de uma estrutura de dados no formato `JSON` e arquivos com nomenclatura
 padronizada, esta base de dados pode ser utilizada como dependência em projetos
-que necessitam de informações atualizadas relacionadas a CEPs no país.
+que necessitam de informações atualizadas, relacionadas a CEPs no país.
 
 ## Formato
 
@@ -29,9 +29,9 @@ está armazenado no arquivo `data/01001000.json` e possui o seguinte conteúdo.
 
 ## Acesso Remoto
 
-Todavia, existe a possibilidade de acessar a base de dados remotamente através
-de requisições HTTP pelo GitHub Pages. Assim, para acessar as informações do CEP
-`01001000` utilizando a ferramenta de linha de comando `curl`, pode-se executar
+Existe a possibilidade de acessar a base de dados remotamente através de
+requisições HTTP pelo GitHub Pages. Assim, para acessar as informações do CEP
+`01001000`, utilizando a ferramenta de linha de comando `curl`, pode-se executar
 o seguinte comando via _terminal_.
 
 ```bash
