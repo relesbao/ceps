@@ -64,7 +64,8 @@ possuem capital para isto.
 
 Tendo isto em mente, o atual projeto busca centralizar uma base de dados,
 independente de empresas, no formato de contribuição coletiva, onde os próprios
-usuários podem manter as informações atualizadas.
+usuários podem manter as informações atualizadas, disponibilizando-as em formato
+padronizado e código-fonte aberto.
 
 ## Licença
 
