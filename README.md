@@ -27,6 +27,22 @@ está armazenado no arquivo `data/01001000.json` e possui o seguinte conteúdo.
 }
 ```
 
+## Acesso Remoto
+
+Todavia, existe a possibilidade de acessar a base de dados remotamente através
+de requisições HTTP pelo GitHub Pages. Assim, para acessar as informações do CEP
+`01001000` utilizando a ferramenta de linha de comando `curl`, pode-se executar
+o seguinte comando via _terminal_.
+
+```bash
+curl https://carteiro.github.io/ceps/data/90220021.json
+```
+
+O funcionamento das requisições trabalha como um _pseudo_ Web Service, onde os
+dados existentes e atualizados são fornecidos através do protocolo HTTP. Caso
+determinado CEP não exista na base de dados, o código HTTP de resposta será
+`404`, característica de documento inexistente pelo proprio GitHub Pages.
+
 ## Contribuindo
 
 Você pode contribuir com este projeto, adicionando ou atualizando informações
