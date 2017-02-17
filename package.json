@@ -4,5 +4,8 @@
     "license": "MIT",
     "devDependencies": {
         "test": "0.6.*"
+    },
+    "scripts": {
+        "test": "node tests/main.js"
     }
 }
