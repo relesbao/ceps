@@ -17,6 +17,10 @@ Adicione no conteúdo da solicitação o máximo de informações possíveis, co
 número de CEP inválido, nome de arquivos com possíveis erros ou problemas na
 estrutura do documento `JSON` descrito.
 
+Caso você saiba trabalhar com Git e possui uma conta no GitHub, por favor, tenha
+conhecimento da estrutura do repositório e crie um _patch request_ (PR) com suas
+alterações.
+
 ## Estrutura do Repositório
 
 Este projeto é controlado através de _tags_ no formato de versionamento
@@ -40,11 +44,13 @@ do código a partir do _branch_ `master`, que representa a última versão está
 do projeto.
 
 Todos os PRs serão verificados pelo [Travis
-CI](https://travis-ci.org/carteiro/ceps), efetuando a leitura de toda a base de
+CI](https://travis-ci.org/carteiro/ceps), que efetua a leitura de toda a base de
 dados cadastrada, procurando por algum erro de conteúdo e estrutura.
 Basicamente, o Travis CI executa os testes unitários através da ferramenta de
-linha de comando `npm`.
+linha de comando `npm`, conforme exemplo abaixo.
 
 ```bash
 npm test
 ```
+
+Happy Coding!
