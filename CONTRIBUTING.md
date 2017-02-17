@@ -32,3 +32,18 @@ devem receber _merge_ no _branch_ de desenvolvimento. Quanto todas as tarefas do
 _milestone_ atual forem finalizadas, então o _branch_ principal será
 sincronizado com o desenvolvimento, fazendo com que o _branch_ principal
 represente sempre a última versão do projeto.
+
+## Patch Requests (PR)
+
+Seguindo os padrões da estrutura do repositório, crie um _branch_ para alteração
+do código a partir do _branch_ `master`, que representa a última versão estável
+do projeto.
+
+Todos os PRs serão verificados pelo Travis CI, efetuando a leitura de toda a
+base de dados cadastrada, procurando por algum erro de conteúdo e estrutura.
+Basicamente, o Travis CI executa os testes unitários através da ferramenta de
+linha de comando `npm`.
+
+```bash
+npm test
+```
