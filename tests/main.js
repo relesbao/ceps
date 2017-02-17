@@ -72,6 +72,15 @@ exports['test content'] = function (assert) {
 
         assert.equal(typeof element.tipo, 'string', filename + ' "tipo" exists');
         assert.ok(validTypes.indexOf(element.tipo) >= 0, filename + ' "tipo" is valid');
+
+        assert.equal(typeof element.logradouro, 'string', filename + ' "logradouro" exists');
+        assert.ok(element.logradouro.length > 0, filename + ' "logradouro" is valid')
+
+        assert.equal(typeof element.bairro, 'string', filename + ' "bairro" exists');
+        assert.equal(element.bairro.length > 0, filename + ' "bairro" is valid');
+
+        assert.equal(typeof element.cidade, 'string', filename + ' "cidade" exists');
+        assert.equal(element.cidade.length > 0, filename + ' "cidade" is valid');
     });
 };
 
