@@ -1,5 +1,8 @@
 {
     "name": "@carteiro/ceps",
     "repository": "carteiro/ceps",
-    "license": "MIT"
+    "license": "MIT",
+    "devDependencies": {
+        "test": "0.6.*"
+    }
 }
