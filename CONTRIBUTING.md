@@ -37,6 +37,22 @@ _milestone_ atual forem finalizadas, então o _branch_ principal será
 sincronizado com o desenvolvimento, fazendo com que o _branch_ principal
 represente sempre a última versão do projeto.
 
+## Estrutura do Documento
+
+Todos os documentos estão no formato `JSON` e disponíveis no diretório `data/`,
+com O nome de cada arquivo respeitando o padrão `/^[0-9]{8}\.json$/`. Ainda,
+cada documento `JSON` deve possuir as informações e somente as informações a
+seguir.
+
+| Atributo   | Tipo   | Descrição                            |
+| ---------- | ------ | ------------------------------------ |
+| \_id       | string | Código de Endereçamento Postal (CEP) |
+| tipo       | string | Tipo de Logradouro                   |
+| logradouro | string | Nome do Logradouro                   |
+| bairro     | string | Bairro                               |
+| cidade     | string | Cidade                               |
+| estado     | string | Sigla do Estado                      |
+
 ## Patch Requests (PR)
 
 Seguindo os padrões da estrutura do repositório, crie um _branch_ para alteração
