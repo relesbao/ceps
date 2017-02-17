@@ -47,6 +47,36 @@ validTypes = [
     'Vila',
 ];
 
+validProvincies = [
+    'AC',
+    'AL',
+    'AM',
+    'AP',
+    'BA',
+    'CE',
+    'DF',
+    'ES',
+    'GO',
+    'MA',
+    'MG',
+    'MS',
+    'MT',
+    'PA',
+    'PB',
+    'PE',
+    'PI',
+    'PR',
+    'RJ',
+    'RN',
+    'RO',
+    'RR',
+    'RS',
+    'SC',
+    'SE',
+    'SP',
+    'TO',
+];
+
 exports['test is file'] = function (assert) {
     fs.readdirSync('data', {}).forEach(function (filename) {
         assert.ok(fs.lstatSync('data/' + filename).isFile(), filename);
@@ -77,10 +107,13 @@ exports['test content'] = function (assert) {
         assert.ok(element.logradouro.length > 0, filename + ' "logradouro" is valid')
 
         assert.equal(typeof element.bairro, 'string', filename + ' "bairro" exists');
-        assert.equal(element.bairro.length > 0, filename + ' "bairro" is valid');
+        assert.ok(element.bairro.length > 0, filename + ' "bairro" is valid');
 
         assert.equal(typeof element.cidade, 'string', filename + ' "cidade" exists');
-        assert.equal(element.cidade.length > 0, filename + ' "cidade" is valid');
+        assert.ok(element.cidade.length > 0, filename + ' "cidade" is valid');
+
+        assert.equal(typeof element.estado, 'string', filename + ' "estado" exists');
+        assert.ok(validProvincies.indexOf(element.estado) >= 0, filename + ' "estado" is valid');
     });
 };
 
