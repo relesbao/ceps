@@ -96,6 +96,8 @@ exports['test content'] = function (assert) {
 
         // Verificações
 
+        assert.equal(typeof element, 'object', filename + ' contains an object');
+
         assert.equal(typeof element._id, 'string', filename + ' "_id" exists');
         assert.ok(/^[0-9]{8}$/.test(element._id), filename + ' "_id" is valid');
         assert.equal(filename.substring(0, 8), element._id, filename + ' "_id" is equal to filename');
@@ -114,6 +116,8 @@ exports['test content'] = function (assert) {
 
         assert.equal(typeof element.estado, 'string', filename + ' "estado" exists');
         assert.ok(validProvincies.indexOf(element.estado) >= 0, filename + ' "estado" is valid');
+
+        assert.ok(Object.keys(element).length == 6, filename + ' contains only needed attributes');
     });
 };
 
