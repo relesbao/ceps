@@ -41,8 +41,8 @@ represente sempre a última versão do projeto.
 
 Todos os documentos estão no formato `JSON` e disponíveis no diretório `data/`,
 com O nome de cada arquivo respeitando o padrão `/^[0-9]{8}\.json$/`. Ainda,
-cada documento `JSON` deve possuir as informações e somente as informações a
-seguir.
+cada documento `JSON` deve possuir todas as informações e somente as informações
+a seguir.
 
 | Atributo   | Tipo   | Descrição                            |
 | ---------- | ------ | ------------------------------------ |
@@ -52,6 +52,11 @@ seguir.
 | bairro     | string | Bairro                               |
 | cidade     | string | Cidade                               |
 | estado     | string | Sigla do Estado                      |
+
+O atributo `_id` deve possuir um mesmo CEP do nome do arquivo. Os valores
+armazenados nos atributos `tipo` e `estado` devem ser válidos e previamente
+reconhecíveis pelo projeto. Por fim, os atributos `logradouro`, `bairro` e
+`cidade` não devem ser vazios.
 
 ## Patch Requests (PR)
 
