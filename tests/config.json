@@ -43,7 +43,18 @@
         "Via",
         "Viaduto",
         "Viela",
-        "Vila"
+        "Vila",
+        "Beco",
+        "Acesso",
+        "Galeria",
+        "Ilha",
+        "Belvedere",
+        "Via de Acesso",
+        "Passagem",
+        "Estrada Municipal",
+        "Passeio",
+        "Elevada",
+        "Ciclovia"
     ],
     "estados": [
         "AC",
