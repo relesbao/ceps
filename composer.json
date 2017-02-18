@@ -1,0 +1,6 @@
+{
+    "name": "carteiro/ceps",
+    "description": "Crowdsourcing Database para Códigos Postais Brasileiros",
+    "type": "library",
+    "license": "MIT"
+}
