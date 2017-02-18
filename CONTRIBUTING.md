@@ -74,4 +74,10 @@ linha de comando `npm`, conforme exemplo abaixo.
 npm test
 ```
 
+Para rodar os testes locais, já fornecemos o ambiente através do docker, bastando rodar o comando abaixo:
+
+```bash
+docker-compose run test npm test
+```
+
 Happy Coding!
